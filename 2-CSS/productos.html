@@ -12,6 +12,39 @@
 Link de navegación
 </nav>
 <aside class="item3">
+    <form name="filter" id="filter">
+     <fieldset>
+        <legend>Buscar</legend>
+        <label>Buscar</label>
+        <input type="text" name="buscar" id="buscar" placeholder="Buscar">
+    </fieldset>
+    <fieldset>
+    <legend>Precios</legend>
+    <p>
+    <label for="price-min">Minimo</label>
+    <input type="number" name="price-min" id="price-min" min="0" placeholder="Minimo">
+    </p>
+    <p>
+    <label for="price-max">Maximo</label>
+    <input type="number" name="price-max" id="price-max" min="0" placeholder="Maximo">
+    </p>
+    </fieldset>
+    <fildset>
+    <legend>Tipo de Producto</legend>
+    <p>
+    <input type="checkbox" name="tipo" id="protectores" value="protectores">
+    <label for="protectores">Protectores</label>
+    </p>
+    <p>
+    <input type="checkbox" name="tipo" id="entrenamiento" value="entrenamiento">
+    <label for="entrenamiento">Entrenamiento</label>
+    </p>
+    <p>
+    <input type="checkbox" name="tipo" id="dobok" value="dobok">
+    <label for="dobok">Dobok</label>
+    </p>
+    </fildset>
+    </form>
     Filtros
 </aside>
 <main class="item4">
