@@ -36,12 +36,12 @@
 -  [x] Pseudo Clases
 -  [x] CV
 -  [x] Backgrounds
--  [ ] Position
+-  [x] Position
 -  [x] 2 Columnas
--  [ ] Grid
--  [ ] grid-areas
--  [ ] Mejora
--  [ ] Transitions
+-  [x] Grid
+-  [x] grid-areas
+-  [x] Mejora
+-  [x] Transitions
 -  [ ] Viewport
 -  [ ] Responsive
 
