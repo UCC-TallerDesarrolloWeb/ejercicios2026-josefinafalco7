@@ -1,8 +1,8 @@
-@use "variables";
-@use "anidacion";
+@use "variables" as variables;
+@use "anidacion" as anidacion;
 
 body {
-  background-color: $color-primario;
+  background-color: variables.$color-primario;
 }
 
 @mixin caja_personalizada($fondo: white, $color: variables.$color-letra) {

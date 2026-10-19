@@ -1,10 +1,13 @@
-.caja h2 {
+.caja {
+  background-color: #6666ff;
+}
+.caja .h2 {
   color: green;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 body {
-  background: #ccc;
+  background-color: blue;
 }
 
 .caja {
@@ -22,3 +25,5 @@ body {
   color: red;
   margin: 20px;
 }
+
+/*# sourceMappingURL=styles.css.map */
