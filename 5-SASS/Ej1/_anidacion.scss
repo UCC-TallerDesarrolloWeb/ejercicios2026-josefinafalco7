@@ -1,0 +1,9 @@
+@use "variables" as *;
+
+.caja {
+  background-color: lighten($color-primario, 20%);
+  .h2 {
+    color: $color-letra;
+    font-family: Arial, sans-serif;
+  }
+}
